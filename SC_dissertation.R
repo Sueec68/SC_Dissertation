@@ -667,7 +667,6 @@ ggsave(
   bg = "transparent")
 
 # word contribution to sentiment by sex
-xxxxxxx
 ggsave(
   filename = "plots.png",
   device = "png",
