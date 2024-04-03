@@ -795,8 +795,6 @@ wilcox_test(data = bing_net, net_sentiment ~ clinicalreview)
 # t_test(data = bing_net, net_sentiment ~ clinical_review)
 
 
-
-# OTHER FUTURE QUESTIONS
 # is it possible to train a predictive model on these data to predict refer based on words? would sentiment metrics be valuable predictor?
 # units beyond words e.g., ngrams
 
