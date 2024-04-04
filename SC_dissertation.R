@@ -787,7 +787,7 @@ ggsave(
 shapiro.test(afinn_net$net_sentiment)
 shapiro.test(bing_net$net_sentiment)
 
-# 2) run statistical test - if p > 0.05 then there is no difference in net sentiment between sex groups
+# 2) run statistical test 
 wilcox_test(data = afinn_net, net_sentiment ~ clinicalreview)
 wilcox_test(data = bing_net, net_sentiment ~ clinicalreview)
 # t_test(data = afinn_net, net_sentiment ~ clinical_review)
